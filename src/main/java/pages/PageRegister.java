@@ -1,0 +1,1 @@
+package pages;public class PageRegister {    private final String PAGE_URL = "https://demowebshop.tricentis.com/register";}

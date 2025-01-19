@@ -17,6 +17,10 @@ public class BasicPageDef {
     public void clickButton(String arg0) {
         basicPage.clickButton(arg0);
     }
+    @Then("Check correct redirect on main page")
+    public void checkCorrectRedirectOnMainPage() {
+        basicPage.redirectOnMainPage();
+    }
 
 
 }

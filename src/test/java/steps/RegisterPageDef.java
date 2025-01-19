@@ -33,4 +33,15 @@ public class RegisterPageDef {
         registerPage.checkRegisterWelcomeText(arg0);
     }
 
+    @Then("Click {string} button after register")
+    public void clickButtonAfterRegister(String arg0) {
+        registerPage.clickRegisterConfirmButton(arg0);
+    }
+
+
+    //#todo: add confirm correct mail after registration
+    // @Then("Check correct register mail on main page")
+    //    public void checkCorrectRegisterMailOnMainPage() {
+    //        registerPage.checkCorrectMailAfterRegisteration();
+    //    }
 }
